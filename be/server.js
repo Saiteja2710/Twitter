@@ -24,6 +24,6 @@ app.use('/uploads', express.static('uploads'));
 app.use(require('./routes/user_route'));
 app.use(require('./routes/tweet_route'));
 app.use(require('./routes/file_route'));
-app.listen(4000, () => {
+app.listen(18012, () => {
  console.log("Server started....:)");
 });
