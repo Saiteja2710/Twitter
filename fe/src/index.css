@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* YourComponent.css */
+.login-form {
+  border: 2px solid #ccc; /* Border styling */
+  padding: 10px; /* Adjusted padding inside the border */
+  margin: auto; /* Center the form horizontally */
+  width: 100%; /* Adjust the width as needed */
+  max-width: 500px; /* Maximum width for responsiveness */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+ }
+ 
+ .login-form .row {
+  margin-bottom: 15px; /* Adjusted margin between rows */
+ }
+ 
+ .login-form label {
+  color: white; /* Text color for labels */
+ }
+ 
+ .login-form input {
+  margin-top: 5px; /* Adjusted margin for input fields */
+ }
+ 
+ .btn{
+  color: white;
+ }
+ 
+ body{
+  background-color: rgb(33, 123, 232);
+ }
+
+ .custom-btn {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+  color: white;
+  background-color: transparent;
+}
+
+.custom-btn-white {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.custom-btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
