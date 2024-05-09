@@ -152,7 +152,11 @@ function TweetBox() {
                     {alltweets.map((tweet) => (
                         <div className='col-md-12 col-sm-12 mb-3' key={tweet._id}>
                             <div className="card">
-                                <img src={tweet.Image} className="card-img-top" alt="img" />
+                                {tweet.Image ? (
+                                            <img src={tweet.Image} className="card-img-top" alt="img" />
+                                        ) : (
+                                            null
+                                        )}
                                 <p>{tweet.content}</p>
                                 <div className='row my-3'>
                                     <div className='col-6 d-flex'>
