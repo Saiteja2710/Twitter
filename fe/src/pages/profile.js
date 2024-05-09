@@ -170,7 +170,11 @@ const Profile = () => {
                             return (
                                 <div className='col-md-12 col-sm-12 mb-3' key={tweet._id}>
                                     <div className="card" onClick={handleShow}>
-                                        <img src={tweet} className="card-img-top" alt="img" />
+                                        {tweet.Image ? (
+                                            <img src={tweet.Image} className="card-img-top" alt="img" />
+                                        ) : (
+                                            null // Or any fallback content you want to render when there's no image
+                                        )}
                                         <p className='p-1'>{tweet.content}</p>
                                         <div className='row my-3'>
                                             <div className='col-6 d-flex'>
