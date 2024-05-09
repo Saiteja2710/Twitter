@@ -1,4 +1,4 @@
 module.exports = {
-    MONGOBD_URL: "mongodb+srv://<saiteja>:<saiteja2710>@cluster0.w1aeqth.mongodb.net/",
+    MONGOBD_URL: "mongodb://localhost:27017/Twitter",
     JWT_SECRET: "hafsfffgg72846285jjjkh54646467hh"
 }
