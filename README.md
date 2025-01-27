@@ -16,4 +16,3 @@ Twitter clone made using MERN Stack.
 - Edit tweets and comments
 - Delete tweets and comments
 
-This project is made available under the MIT License.
